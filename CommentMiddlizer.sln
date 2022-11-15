@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentMiddlizer", "CommentMiddlizer\CommentMiddlizer.csproj", "{DE4A458C-BE37-46CB-B8FC-EF8CDA3708AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE4A458C-BE37-46CB-B8FC-EF8CDA3708AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4A458C-BE37-46CB-B8FC-EF8CDA3708AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4A458C-BE37-46CB-B8FC-EF8CDA3708AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4A458C-BE37-46CB-B8FC-EF8CDA3708AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3D8CDCE-4B5B-44D0-9C51-5092E39E0BBE}
+	EndGlobalSection
+EndGlobal
