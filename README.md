@@ -1,11 +1,16 @@
 # CommentMiddlizer
 
 Type the test you want and run it it will dispaly in a console, just copy and paste in SQL Query
+The sourrounding comment can be adjusted along with the comment block in the middle to be any charracter or multiple characters
 
 	--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
     --~~~~~~~~~~~~~~~~~~~~~~ This is a test for Middilizer ~~~~~~~~~~~~~~~~~~~~~--
     --++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
     
-This can be a very nice extention for SSMS to add comment headers like this
+	---+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--
+	--~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~# This is a test for Middilizer ~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#--
+	---+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--
+    
+This can be used and converted to a very cool extention for SSMS to add comment headers like this directly in the cursor position.
 
-![image](https://user-images.githubusercontent.com/12003810/202047530-66f97937-decc-4b9f-9a12-c95b1537cf8c.png)
+![image](https://user-images.githubusercontent.com/12003810/202048738-02fd91e2-f3ee-41de-9804-d1a08d2e898b.png)
