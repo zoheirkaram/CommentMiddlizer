@@ -1,7 +1,10 @@
 # Comment Middlizer
 
-Type the test you want and run it it will dispaly in a console, just copy and paste in SQL Query
-The sourrounding comment can be adjusted along with the comment block in the middle to be any charracter or multiple characters
+Type the test you want and run it it will dispaly in a console, just copy and paste in SQL Query.
+
+The sourrounding comment can be adjusted along with the comment block in the middle to be any character or multiple characters.
+
+
 
 	--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
     --~~~~~~~~~~~~~~~~~~~~~~ This is a test for Middilizer ~~~~~~~~~~~~~~~~~~~~~--
