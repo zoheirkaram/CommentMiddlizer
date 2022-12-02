@@ -13,8 +13,7 @@ string CommentMiddlizer(string text, string delimiter = "#", string surroundingD
 	var sequence = Enumerable.Range(1, commentLength).Select(e => delimiter).ToArray();
 	var sequenceMidPoint = (int)sequence.Count() / 2;
 	var textLength = text.Length;
-	var textRightHalf = (int)textLength / 2 + (textLength % 2 == 0 ? 0 : 1);
-	var textLeftHalf = (int)textLength / 2;
+	var textMiddle = (int)textLength / 2;
 
 	#region Some arguments check
 
@@ -40,18 +39,18 @@ string CommentMiddlizer(string text, string delimiter = "#", string surroundingD
 
 	#endregion
 
-	for (var position = sequenceMidPoint; position >= sequenceMidPoint - textLeftHalf; position--)
+	for (var position = sequenceMidPoint; position >= sequenceMidPoint - textMiddle; position--)
 	{
 		sequence[position] = "";
 	}
 
-	for (var position = sequenceMidPoint; position <= sequenceMidPoint + textRightHalf; position++)
+	for (var position = sequenceMidPoint; position <= sequenceMidPoint + textMiddle + (textLength % 2 == 0 ? 0 : 1); position++)
 	{
 		sequence[position] = "";
 	}
 
 	var textPosition = 0;
-	for (var position = sequenceMidPoint - textLeftHalf; position < sequenceMidPoint + textRightHalf; position++)
+	for (var position = sequenceMidPoint - textMiddle; position < sequenceMidPoint + textMiddle + (textLength % 2 == 0 ? 0 : 1); position++)
 	{
 		sequence[position] = text[textPosition].ToString();
 		textPosition++;
